@@ -44,7 +44,7 @@ const RANKINGST = (() => {
         {
             nome: 'Internacional',
             logo: 'internacional.svg',
-            socios: 130000
+            socios: 126000
         },
         {
             nome: 'Vasco da Gama',
@@ -62,7 +62,7 @@ const RANKINGST = (() => {
         {
             nome: 'Internacional',
             logo: 'internacional.svg',
-            socios: 130000
+            socios: 126000
         },
         {
             nome: 'Vasco da Gama',
