@@ -9,7 +9,7 @@ const RANKINGST = (() => {
         {
             nome: 'Bayern de Munique',
             logo: 'bayern-munich.svg',
-            socios: 217000
+            socios: 291000
         },
         {
             nome: 'Real Madrid',
@@ -19,7 +19,7 @@ const RANKINGST = (() => {
         {
             nome: 'Benfica',
             logo: 'benfica.svg',
-            socios: 198000
+            socios: 230000
         },
         {
             nome: 'Manchester United',
@@ -29,7 +29,7 @@ const RANKINGST = (() => {
         {
             nome: 'Schalke 04',
             logo: 'schalke-04.svg',
-            socios: 156000
+            socios: 155000
         },
         {
             nome: 'Borussia Dortmund',
@@ -39,7 +39,7 @@ const RANKINGST = (() => {
         {
             nome: 'Flamengo',
             logo: 'flamengo.svg',
-            socios: 145000
+            socios: 139000
         },
         {
             nome: 'Internacional',
@@ -49,7 +49,7 @@ const RANKINGST = (() => {
         {
             nome: 'Vasco da Gama',
             logo: 'vasco.svg',
-            socios: 124000
+            socios: 140000
         }
     ];
 
@@ -57,7 +57,7 @@ const RANKINGST = (() => {
         {
             nome: 'Flamengo',
             logo: 'flamengo.svg',
-            socios: 145000
+            socios: 139000
         },
         {
             nome: 'Internacional',
@@ -67,7 +67,7 @@ const RANKINGST = (() => {
         {
             nome: 'Vasco da Gama',
             logo: 'vasco.svg',
-            socios: 124000
+            socios: 140000
         },
         {
             nome: 'Atlético-MG',
