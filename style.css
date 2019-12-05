@@ -13,6 +13,10 @@ html, body {
     text-align: center;
 }
 
+.container .share {
+    line-height: 13px;
+}
+
 .container .ranking {
     margin: 0 auto;
     font-size: 1rem;

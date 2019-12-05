@@ -18,11 +18,43 @@
 
     gtag('config', 'UA-153512111-1');
     </script>
-    
+
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+      
+        return t;
+      }(document, "script", "twitter-wjs"));</script>
+
 </head>
 <body>
+
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=643709982337373&autoLogAppEvents=1"></script>
+<div id="twitter-wjs"></div>
+
 <div class="container">
     <h1 class="title">Ranking de Sócios Torcedores</h1>
+    <div class="share">
+        <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?text=Confira o Ranking de Sócios Torcedores em tempo real"
+        data-size="large" 
+        data-hashtags="AssociaVasco,AssociaVasco200K"
+        data-via="castroalves"
+        >
+        Tweet</a>
+        <div class="fb-share-button" data-href="https://castroalves.github.io/ranking-socios-torcedores/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcastroalves.github.io%2Franking-socios-torcedores%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartilhar</a></div>
+    </div>
     <h2>🌎 Mundo</h2>
     <div class="ranking ranking-mundo">
         <dl></dl>
@@ -42,5 +74,7 @@
     </div>
 </div>
 <script src="ranking.js"></script>
+
+
 </body>
 </html>
